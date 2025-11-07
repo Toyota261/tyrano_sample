@@ -1,46 +1,134 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="怒れセリヌンティウス"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
 「走るか寝るかするメロス」[l][r]
 
-メロスは激怒した。[l][r]
+メロスは　必ず友を助けると　決意した。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+メロスの目の前に　流れの激しい　川が現れた！[l][r]
 
-(中略)[l][r]
+この川を　越えなければ　妹の結婚式に　間に合わない...[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+[link target=*tag_oyogu] →泳いで　わたる [endlink][r]
+[link target=*tag_hasi] →流木で　橋をつくる [endlink][r]
+[link target=*tag_akirame] →あきらめる [endlink][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
 [s]
 
-*tag_sleep
+
+*tag_oyogu
 
 [cm]
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+なんと！　その川は　ひとくいざめの　すみかだった！[l][r]
+　
+メロスは　目の前がまっくらに　なった...[l][r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+
+
+*tag_hasi
 
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+メロスは　いいかんじの　流木を　みつけた！[l][r]
 
-【 GOOD END 】[l][cm]
+メロスは　いいかんじの　流木を　かきあつめ　立派な橋を　つくろうとした！[l][r]
+
+しかし　メロスは　体力があるだけの　ただの羊飼い！[l][r]
+
+出来上がったのは　ただの　ガラクタだ！[l][r]
+
+メロスは　目の前がまっくらに　なった...[l][r]
+
+【 BAD END 】[l][cm]
 
 [jump target=*start]
+
+
+
+*tag_akirame
+
+[cm]
+メロスは　この川を渡るのは　不可能だと　さとり[l][r]
+
+あきらめて　川をながめることにした[l][r]
+
+[bg storage=run.jpg time=500]
+
+すると　みちのかげから　とりのまものが　あらわれた！[l][r]
+
+[link target=*tag_tatakau] →たたかう [endlink][r]
+[link target=*tag_nigeru] →にげる [endlink][r]
+
+
+
+*tag_nigeru
+
+[cm]
+メロスは　にげだした！[l][r]
+
+しかし　まわりこまれてしまった！[l][r]
+
+[link target=*tag_tatakau] →たたかう [endlink][r]
+[link target=*tag_nigeru] →にげる [endlink][r]
+
+
+*tag_tatakau
+
+[cm]
+メロスは　いいかんじの　流木を手に取り　たたかった！[l][r]
+
+しかし　おもったより　まものがつよい！[l][r]
+
+いますぐにでも　にげだしたい！[l][r]
+
+[link target=*tag_tatakau2] →たたかう [endlink][r]
+[link target=*tag_nigeru2] →にげる [endlink][r]
+
+
+*tag_tatakau2
+
+[cm]
+メロスは　にげだした！[l][r]
+
+しかし　やはり　わまりこまれてしまった！[l][r]
+
+メロスは　目の前がまっくらに　なった...[l][r]
+
+【 BAD END 】[l][cm]
+
+
+*tag_tatakau2
+
+[cm]
+メロスは　それでも　がんばって　たたかった！[l][r]
+
+そして　持ち前のたいりょくを　生かし　ついに勝利を収めた！[l][r]
+
+メロスが　勝利を　かみしめていると...[l][r]
+
+なんと！　とりのまものが　なかまになりたそうに　こちらをみている！[l][r]
+
+なかまにしますか？
+
+[link target=*tag_hai] →はい [endlink][r]
+[link target=*tag_iie] →いいえ [endlink][r]
+
+*tag_iie
+
+[cm]
+そんなこと　いわないで！
+
+[link target=*tag_hai] →はい [endlink][r]
+[link target=*tag_iie] →いいえ [endlink][r]
